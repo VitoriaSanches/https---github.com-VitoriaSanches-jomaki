@@ -10,8 +10,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: #e3bafa;
-  height: 120px;
+  background: #cbd5ff;
+  height: 160px;
 }
 
 .nav{
@@ -66,4 +66,27 @@
 
 .nav-items a span {
   width: 30px;
+}
+
+.links-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px 10vw;
+;
+}
+
+.link {
+  text-transform: capitalize;
+  padding: 0 10px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: rgb(72, 69, 75);
+  transition: 0.5s;
+}
+
+.link:hover{
+  color:#6F81CE;
+  font-weight: bold
 }
